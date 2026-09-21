@@ -17,7 +17,7 @@ Rectangle {
         repeat: true  // 重复触发
         running: true  // 启动定时器
         triggeredOnStart: true  // 定时器启动时立即触发
-        onTriggered: updateTime()  // 更新日期时间
+        onTriggered: timerPage.updateTime()  // 更新日期时间
     }
 
     ColumnLayout {
